@@ -1,5 +1,5 @@
 {
-  "name": "Cat Fact Friday",
+  "name": "catfactfriday",
   "description": "Read and submit cat facts!",
   "repository": "https://github.com/jerryaswell/catfactfriday",
   "keywords": ["node", "cats", "cat facts"]
