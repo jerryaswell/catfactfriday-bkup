@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include ("../partials/landing-header.ejs") %>
+</head>
+
+<body>
+  <div id='content'>
+    <div id='intro'>
+      <div class='blurb-list' id='intro-blurbs'>
+        <div class='blurb' id='blurb-view'>
+          <div class='blurb-icon'>
+            <img src='icons/paw_white.svg' />
+          </div>
+          <div class='blurb-text'>
+            View facts about cats
+          </div>
+        </div>
+        <div class='blurb' id='blurb-share'>
+          <div class='blurb-icon'>
+            <img src='icons/chat_white.svg' />
+          </div>
+          <div class='blurb-text'>
+            Share facts
+          </div>
+        </div>
+        <div class='blurb' id='blurb-submit'>
+          <div class='blurb-icon'>
+            <img src='icons/success_white.svg' />
+          </div>
+          <div class='blurb-text'>
+            Submit your own facts
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id='continue'>
+      <div id='continue-message'>
+	<img src='icons/solidpaw_pink.svg' />
+      </div>
+      <div id='continue-action'>
+        <a href='/facts'><div class='button'>Get the facts!</div></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

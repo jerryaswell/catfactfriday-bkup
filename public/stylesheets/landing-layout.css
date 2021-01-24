@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#content {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1
+}
+#intro {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+#intro-blurbs {
+  grid-column: 2;
+  grid-row: 2;
+}
+#continue {
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1.3fr 1fr;
+}
+#continue-message {
+  padding-top: 8em;
+}
+#continue-action .button {
+  width: 8em;
+  margin: auto;
+}

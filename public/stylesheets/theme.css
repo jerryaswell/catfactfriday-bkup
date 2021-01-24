@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+}
+.button {
+  margin: 1em;
+  padding: 1em;
+  border-radius: .5em;
+}
+#intro {
+  color: white;
+  background-image: url('../icons/solidpaw_offpink.svg');
+  background-color: #fcb3f6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left 10em;
+}
+#intro a {
+  color: white;
+}
+#continue {
+}
+#continue .button {
+  color: #fcb3f6;
+  background-color: white;
+  border: .2em solid #fcb3f6;
+  font-weight: bold;
+}
+#continue .button:hover {
+  color: white;
+  background-color: #fcb3f6;
+}
