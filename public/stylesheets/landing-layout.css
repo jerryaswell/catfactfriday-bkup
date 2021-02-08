@@ -6,8 +6,8 @@ body {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-areas: "intro"
-                       "continue";
+  grid-template-areas: "continue"
+                       "intro";
 }
 #intro {
   width: 100%;
@@ -44,7 +44,13 @@ body {
 /* Medium devices */
 @media (min-width: 788px) {
   #content {
-    grid-template-areas: "intro continue";
+    grid-template-areas: "continue intro";
+  }
+  #continue {
+    order: 2;
+  }
+  #intro {
+    order: 1;
   }
 }
 
