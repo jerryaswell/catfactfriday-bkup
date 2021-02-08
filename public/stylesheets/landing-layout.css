@@ -41,15 +41,15 @@ body {
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Medium devices */
+@media (min-width: 788px) {
+  #content {
+    grid-template-areas: "intro continue";
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  #content {
-    grid-template-areas: "intro continue";
-  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
