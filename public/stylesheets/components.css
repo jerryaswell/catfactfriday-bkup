@@ -1,6 +1,6 @@
 .blurb-list {
+  grid-area: "blurb-list";
   display: grid;
-  grid-template-columns: 1fr;
 }
 .blurb {
   height: 3em;
