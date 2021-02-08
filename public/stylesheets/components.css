@@ -11,6 +11,25 @@
 .blurb-text {
   margin: 1.5em 0 1.5em .5em;
 }
+#navigation {
+  display: grid;
+  grid-template-areas: "list search account";
+  width: 100%;
+}
+#nav-list {
+  grid-area: "list";
+  display: flex;
+  flex-direction: columns;
+}
+.nav-item {
+  display: grid;
+  grid-template-areas: "icon"
+                       "text";
+}
+.nav-item-icon {
+  grid-area: icon;
+  height: 4em;
+}
 
 /* Extra-Small devices */
 @media (min-width: 381px) {

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#content {
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "navigation"
+                       "facts";
+}
+#navigation {
+  grid-area: "navigation";
+}
+#facts {
+  grid-area: "facts";
+}
+
+/* Extra-Small devices (376px and up) */
+@media (min-width: 376px) {
+}
+
+/* Medium devices */
+@media (min-width: 788px) {
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
