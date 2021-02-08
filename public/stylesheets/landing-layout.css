@@ -30,11 +30,14 @@ body {
 
 /* Extra-Small devices (376px and up) */
 @media (min-width: 376px) {
-  body {
-    font-size: 1.6em;
+  #intro {
+    font-size: 2em;
   }
   #continue-image {
     width: 100%;
+  }
+  #continue-action {
+    font-size: 1.5em;
   }
 }
 
