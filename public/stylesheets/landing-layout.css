@@ -1,6 +1,10 @@
 body {
-  margin: 0;
-  padding: 0;
+  font-family: 'Paytone One', sans-serif;
+}
+#continue-message {
+  color: #fcb3f6;
+  font-size: 2em;
+  text-decoration-thickness: 200%;
 }
 #content {
   width: 100vw;

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <%- include ("../partials/universal-header.ejs") %>
   <%- include ("../partials/landing-header.ejs") %>
 </head>
-
 <body>
   <div id='content'>
     <div id='continue'>
       <div id='continue-message'>
-        <p>Cat facts</p>
-	<p>On <strike>Friday</strike> <em>days that end in "y"</em>
+        <p>
+          <h1>Cat Facts</h1><br>
+          <h5>On <strike>Friday</strike> <em>days that end in "y"</em><h5>
+        </p>
       </div>
       <div id='continue-action'>
         <a href='/facts'><div class='button'>Get the facts!</div></a>
